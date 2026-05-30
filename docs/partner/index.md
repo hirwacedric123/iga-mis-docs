@@ -12,8 +12,7 @@ This site documents how **MIS** can retrieve **student professionalism** data fr
 | **Production base URL** | `https://keplercollege.igaafrica.com` |
 | **Main guide** | [Student professionalism export](mis-professionalism-export.md) |
 
-!!! note "API credentials"
-    The API key is **not** included in this documentation. Your LMS administrator will share it with you through a **separate secure channel** (email or internal handoff).
+**Note:** The API key is **not** included in this documentation. Your LMS administrator will share it with you through a **separate secure channel** (email or internal handoff).
 
 ## Quick start
 

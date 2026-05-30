@@ -1,7 +1,5 @@
 # IGA LMS — MIS partner API documentation (GitHub Pages)
-# Source of truth for API content: Tech-Volve/itsa-v3 docs/api/MIS_PROFESSIONALISM_EXPORT.md
-
-site_name: IGA LMS — Partner API Documentation
+site_name: IGA LMS — MIS Documentation
 site_description: MIS integration guide — student professionalism export (Kepler College)
 site_author: Kepler College / IGA LMS
 
@@ -14,60 +12,24 @@ edit_uri: edit/main/docs/partner/
 docs_dir: docs/partner
 site_dir: site
 
+# ReadTheDocs theme: plain HTML/CSS, no JavaScript required (loads on slow networks)
 theme:
-  name: material
-  language: en
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-  features:
-    - navigation.sections
-    - navigation.top
-    - content.code.copy
-    - search.suggest
-    - search.highlight
-    - toc.follow
-  font: false
+  name: readthedocs
+  navigation_depth: 3
+  collapse_navigation: false
+  titles_only: false
 
 plugins:
-  - search
   - include-markdown
 
 markdown_extensions:
   - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.highlight:
-      anchor_linenums: true
   - tables
   - toc:
       permalink: true
       toc_depth: 3
+  - fenced_code
 
 nav:
   - Home: index.md
-  - MIS integration:
-      - Student professionalism export: mis-professionalism-export.md
-
-validation:
-  nav:
-    omitted_files: info
-  links:
-    not_found: warn
-    anchors: warn
-    absolute_links: info
-    unrecognized_links: info
+  - Student professionalism export: mis-professionalism-export.md
