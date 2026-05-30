@@ -1,0 +1,4 @@
+# MkDocs site for partner / MIS API documentation (GitHub Pages)
+mkdocs>=1.6,<2.0
+mkdocs-material>=9.5,<10
+mkdocs-include-markdown-plugin>=6.0,<7
